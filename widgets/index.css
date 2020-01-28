@@ -1,0 +1,59 @@
+
+html {
+  background-size: 200px;
+  background-image: url(https://media.giphy.com/media/gx54W1mSpeYMg/giphy.gif);
+}
+
+li {
+  list-style-type: none;
+}
+
+.clock {
+  display: block;
+  width: 400px;
+  margin: auto;
+}
+
+.clock > h1 {
+  font-size: 60px;
+}
+
+.clock-content {
+  display: flex;
+  justify-content: space-between;
+  border: 5px solid orange;
+  border-radius: 5px;
+  padding: 0px 20px;
+  background-color: lightseagreen;
+  color: aliceblue;
+}
+
+.time-detail {
+  padding-right: 50px;
+}
+
+.flashit{
+  color: lightseagreen;
+	-webkit-animation: flash linear 1s infinite;
+	animation: flash linear 1s infinite;
+}
+@-webkit-keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+@keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+
+.tab-headers {
+  font-size: 50px;
+  color: lightseagreen;
+}
+
+.tab-container {
+
+
+}
